@@ -1,12 +1,13 @@
 {
   "name": "xsd-schema-validator",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A (XSD) schema validator for nodejs",
   "main": "lib/validator.js",
   "scripts": {
     "all": "run-s lint test",
     "lint": "eslint .",
-    "test": "mocha"
+    "test": "mocha",
+    "postinstall": "javac support/XMLValidator.java"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,12 @@
     "validation"
   ],
   "author": "Nikku",
+  "contributors": [
+    {
+      "name": "passify",
+      "web": "https://github.com/passify"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
