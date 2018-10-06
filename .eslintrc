@@ -8,7 +8,6 @@
     "object-curly-spacing": [ 2, "always"],
     "semi": [ 2, "always" ],
     "space-before-blocks": [ 2, "always"],
-    "space-before-function-paren": [ 2, "never" ],
     "quotes": [ 2, "single" ]
   },
   "env": {
