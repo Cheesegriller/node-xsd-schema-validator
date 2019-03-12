@@ -1,5 +1,5 @@
 {
-  "name": "@passify/xsd-schema-validator",
+  "name": "@authenio/xsd-schema-validator",
   "version": "0.7.1",
   "description": "A (XSD) schema validator for nodejs",
   "main": "lib/validator.js",
@@ -23,8 +23,8 @@
   "author": "Nikku",
   "contributors": [
     {
-      "name": "passify",
-      "web": "https://github.com/passify"
+      "name": "authenio",
+      "web": "https://github.com/authenio"
     }
   ],
   "license": "MIT",
